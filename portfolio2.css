@@ -1,0 +1,257 @@
+/*CSS stylesheet */
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+body{
+    background-color: rgba(156, 196, 192, 0.5);
+    max-width: 100%;
+    overflow-x:hidden;
+    background-image:url(backnav3.jpg);
+    background-size: auto;
+    background-repeat: repeat-y;  
+}
+
+
+
+
+
+ body header{
+    background-size: cover;
+    background-image:url(back3.jpg);
+    height: 110vh;
+    border-top:80vh solid rgba(13, 8, 46, 0.4);
+    border-bottom:80vh solid rgba(13, 8, 46, 0.4);
+    border-left:80vh solid rgba(13, 8, 46, 0.4);
+    border-right:80vh solid rgba(13, 8, 46, 0.4);
+    margin-top: -68vh;
+    margin-left: -35vh;
+    margin-right: -45vh;
+    background-repeat: round;
+    border-radius: 50%;
+    background-clip: border-box;
+    border-bottom-color:rgba(156, 196, 192, 0.1);
+    border-bottom-style: solid; 
+}
+header nav{
+    margin-top: -18.1vh;
+    margin-left: -45vh;
+    
+    width: 157.3%;
+    height:4.3vh;
+    
+    position: fixed;
+    z-index:150;
+}
+header nav img{
+    margin-top: -12.2vh;
+    margin-left: -45vh;
+    filter: brightness(90%);
+    width: 157.3%;
+    height:23.7vh;
+    border-bottom:.6vh solid black;
+    z-index: 120;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    width:5%;
+    padding-left: 29vh;
+    transform: translate(0px,-8vh);
+    filter: brightness(50%);
+    z-index: 250;
+}
+nav a{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.3rem;
+    color: rgb(10, 56, 35);
+}
+
+body header h2{
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    margin-top:53vh;
+    color: rgb(10, 56, 35);
+}
+
+
+
+
+
+
+main{
+    background-image:url(backnav3.jpg);
+    background-size: auto;
+    background-repeat: repeat-y;
+    margin-top:-80vh;
+    z-index:200;
+}
+
+main>div>h1{
+    background-color: rgb(167, 204, 200);
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+    color:rgb(10, 56, 35); 
+    width:80%;
+    margin-left:10vw;
+    border-top:10px double; 
+
+    
+    
+}
+main div section{
+    display: flex;
+    width: 80%;
+    height:18vh;
+    background-color: rgb(167, 204, 200);
+    color: rgb(63, 63, 63);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .7rem;
+    text-align: center;
+    margin-left:10vw;
+    margin-top: 0vh;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    border-bottom:0px;
+    
+}
+main div section h2{
+    padding-top:2vh;
+    
+}
+main div section img{
+    z-index:110; 
+    width: 23vw;
+    height:46vh;
+    border-radius: 50%;
+    transform: translate(-1vw,-6vh);
+}
+main div article{
+    display:flex;
+    width: 40%;
+    background-color: rgb(36, 82, 61);
+    height:18vh;
+    z-index: 100;
+    padding-right:7vw;
+    margin-left:10vw;
+    border-left:100px solid rgb(167, 204, 200);
+    border-right:344px solid rgb(167, 204, 200);
+    border-bottom:20px solid rgb(167, 204, 200);
+    padding-top:1vh;
+}
+main div article h1{
+    padding-left:1vw;
+    margin:1.3vw;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(110, 147, 168);
+    transform: translate(4vw,-2.5vh);
+    font-weight:500;
+    font-size:1.25rem;
+}
+main div article p{
+    padding-left:5vw;
+    margin:.1vw;
+    text-align: center;
+    color: rgb(167, 204, 200);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    transform: translate(2vw,-5vh);
+    font-weight:200;
+    
+}
+
+
+
+
+
+
+main section{
+    width: 90%;
+    border: 3px solid rgb(167, 204, 200);
+    background-color: rgb(167, 204, 200);
+    height:75vh;
+    z-index: 100;
+    margin-top: 3vh;
+    margin-left: 4.5vw;
+    border-top:10px double;
+    
+    
+    
+    
+}
+main section h1{
+    text-align: center;
+    color:rgb(10, 56, 35);
+    font-family: 'Sansita Swashed', cursive;
+    font-size:2.2rem;
+    font-weight: 600; 
+    
+
+    
+}
+main section div{
+    display:inline-block;
+    width:29%;
+    margin-left:2.2vw;
+    margin-top:4.5vh;
+    margin-bottom:3vh;
+}
+main section div figcaption{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:1.2rem;
+    color: rgb(63, 63, 63);
+    
+}
+main section div iframe{
+    border:2px solid rgb(36, 82, 61);
+    border-radius:20%;
+}
+
+
+
+
+
+footer{
+    background-color: rgb(167, 204, 200);
+    background-size: auto;
+    background-repeat: repeat-y;
+    width: 100%;
+    height:35vh;
+    z-index: 100;
+    margin-top:3vh;
+    margin-left:31vh;
+    width:70%;
+    margin-bottom:3vh;
+    border:10px double;
+}
+footer h1{
+    color:rgb(10, 56, 35);
+    text-align:center;
+    font-family:cursive;
+    font-size:1.9rem;
+    padding-top:6vh;
+}
+footer p{
+    color:rgb(10, 56, 35);
+    text-align:center;
+    font-size:1.3rem;
+    padding-top:3vh;
+    text-decoration: underline;
+    margin:-.7vw;
+}
+footer h2{
+    transform: translate(13.5vw,-13.5vh);
+    font-size: 2rem;
+}
+footer h3{
+    transform: translate(53vw,-20vh);
+    font-size: 2rem;
+}
